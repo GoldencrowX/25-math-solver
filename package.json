@@ -1,15 +1,25 @@
 {
   "name": "25-math-solver",
   "version": "1.0.0",
-  "description": "Math Solver",
+  "description": "Movie Watchlist",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha ./test/* --exit",
+    "dev": "nodemon app.js",
+    "build": "echo 'No build step required for this project'"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "api": "^6.1.3",
+    "expres": "^0.0.5",
+    "express": "^4.22.1",
+    "require": "^0.4.4",
+    "requires": "^1.0.2"
   },
   "engines": {
     "node": ">=14.x"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.5"
   }
 }
